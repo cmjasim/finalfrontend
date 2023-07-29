@@ -1,0 +1,115 @@
+.card1{
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    /* height: 15rem; */
+  
+}
+
+body{
+    
+    /* background-image: url('../../assets/pink.jpeg'); */
+    /* background-color:#f47d31; */
+    margin: 0%;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    /* mask-repeat: no-repeat; */
+
+}
+.img{
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    /* margin-left: 20%;
+    margin-right: 30%; */
+    
+   
+}
+
+
+/* <---------doctor form-------------> */
+
+
+.a{
+    color: black;
+}
+.radhu{
+    display: flex;
+
+}
+.n{
+    margin-top: 4%;
+}
+.p{
+    margin-left: 12%;
+}
+.r1{
+    display: flex;
+}
+.n1{
+    margin-top: 4%;
+}
+.p1{
+    margin-left: 0%; 
+}
+
+.r2{
+    display: flex;
+}
+.n2{
+    margin-top: 4%;
+}
+.p2{
+    margin-left: 10%; 
+}
+.r3{
+    display: flex;
+}
+n3{
+    margin-top: 4%;
+}
+    .p3{
+    margin-left: 11% ;
+}
+#inlineRadio1{
+    width: 20px;
+    height: 20px;
+}
+#inlineRadio2{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.js{
+    margin-top: 40px;
+}
+.list-box{
+    margin-left: 5%;
+    margin-top: 4%;
+    
+}
+
+.rad1{
+    margin-top: 30px;
+}
+
+.date{
+    width: 150px;
+    height: 75px;
+   /* background-color: antiquewhite; */
+    
+}
+.dt{
+    margin-top: -65%;
+    margin-left: 265%;
+    background-color: antiquewhite;
+
+}
+.op{
+    margin-left: -384px;
+    margin-top: -6px;
+}
+
+.p12{
+    margin-left: 15%;
+}

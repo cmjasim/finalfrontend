@@ -1,0 +1,26 @@
+ <body>
+	
+ 
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form [formGroup]="regform" (ngSubmit)="clicked()" id="register-form" class="form" action="" method="post">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="User_Id" placeholder="User_Email"  required="" formControlName="userid" >
+					<input type="email" name="User_Name" placeholder="User_Name" required="" formControlName="username" >
+					<input type="password" name="password" placeholder="Password" required="" formControlName="password" >
+					<button type="submit">Register</button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form [formGroup]="logform" (ngSubmit)="btnClick()" id="login-form" class="form" action="" method="post">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="text" name="email" placeholder="User_Email" formControlName="user" required="">
+					<input type="password" name="pswd" placeholder="Password" formControlName="passw" required="">
+					<button type="submit"  >Login</button>
+				</form>
+			</div>
+	</div>
+</body>

@@ -1,0 +1,15 @@
+.space{
+    margin-left: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.log{
+    margin-right: 450px;
+}
+.js{
+    font-weight: 100;
+    font-size: larger;
+}
+.color{
+    background-color: aqua;
+}

@@ -1,0 +1,71 @@
+<!-- <div class="color"> -->
+<body class="vaccine">
+  
+  <div class="hero">
+    <section class="intro">
+       
+            <div id="box" class="container">
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <!-- <div class="table-responsive"> -->
+                        <table class="table table-hover mb-0">
+                          <thead>
+                            <tr>
+                          
+                              <th scope="col">USERID</th>
+                              <th scope="col">NAME</th>
+                              <th scope="col">AGE</th>
+                              <th scope="col">ADDRES</th>
+                              <th scope="col">PHONE</th>
+                              <th scope="col">TIME</th>
+                              <th scope="col">DATE</th>
+                              <th scope="col">DOCTOR</th>
+                             
+                            </tr>
+                          </thead>
+                          <tbody>
+                              
+                        
+                              <tr *ngFor="let i of reminder">
+                                <!-- <td>{{i.indexOf(i)+1}}</td> -->
+                                  <td>{{i.userid}}</td>
+                                  <td>{{i.name}}</td>
+                                  <td>{{i.age}}</td>
+                                  <td>{{i.address}}</td>
+                                  <td>{{i.phone}}</td>
+                                  <td>{{i.time}}</td>
+                                  <td>{{i.date|date:'short'}}</td>
+                                  <td>{{i.doctor}}</td>
+                                  <!-- <td><a routerLink="/home" class="btn btn-dark">BACK</a></td>
+                                  <td><a routerLink="/" class="btn btn-dark">CLEAR</a></td> -->
+  
+                                  <!-- <td>{{i.Balance}}</td> -->
+                              
+                              </tr>
+                          </tbody>
+                          
+                        
+                        </table>
+                        <div class="text-center">
+                          <a class="btn btn-info ml-5" routerLink="/home">Back</a><br>
+                          <button class="btn btn-danger" (click)="deleteop()">Clear All OP-Ticket History</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+      </section>
+    </div>
+    
+  
+  
+  <!-- <------------------------------vaccine----------------------------------------> 
+  
+   
+    
+</body>
+

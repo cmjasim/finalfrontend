@@ -1,0 +1,48 @@
+<body class="body">
+<p>slote works!</p>
+
+    <div class="container">
+    <form [formGroup]="slote" (ngSubmit)="fbtnClick()" id="front-form" class="form" action="" method="post"   action="action_page.php"  >
+      <h1 class="h1">SELECT YOUR TIME</h1>
+
+      <!-- <label for="fname">UserId</label>
+      <input type="text" id="fname" name="firstname" placeholder="User Id.." formControlName="userid"> -->
+
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." formControlName="name">
+  
+      <label for="lname">Age</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your age.." formControlName="age">
+  
+      <label for="country">Hospital</label>
+      <select id="country" name="country" formControlName="hospital">
+        <!-- <option value="australia">Select Ur District....</option> -->
+        <option value="Nirmala Trivandrum">Nirmala Trivandrum</option>
+        <option value="SP Fort Trivandrum">SP Fort Trivandrum</option>
+        <option value="Jubilee Memorial Trivandrum">Jubilee Memorial Trivandrum</option>
+        <option value="meitra Calicut">meitra Calicut</option>
+        <option value="BaBy Calicut">BaBy Calicut</option>
+        <option value="MIMS Calicut">MIMS Calicut</option>
+        <option value="Ashirvad Kannur">Ashirvad Kannur</option>
+        <option value="usDhanalakshmiKannura">DhanalakshmiKannur</option>
+        <option value="M.B Mallappuram">M.B Mallappuram</option>
+        <option value="Aster Wayanad">Aster Wayanad</option>
+      </select>
+<!-- 
+      <label for="country">Date</label>
+      <input type="date" id="date" name="date" placeholder="select Your date"> -->
+
+      <label class="date" for="lname">Select yor Date</label>
+      <input type="date" id="date" name="date" placeholder="Your age.." formControlName="date">
+  
+      <!-- <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+       <div>
+      <input class="btn" type="submit" name="submit">
+    </div>
+    </form>
+</div>
+</body>
+
+
+
